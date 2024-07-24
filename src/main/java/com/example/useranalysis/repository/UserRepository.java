@@ -1,6 +1,6 @@
-package travel_type.tt_test.useranalysis.repository;
+package com.example.useranalysis.repository;
 
-import travel_type.tt_test.useranalysis.model.User;
+import com.example.useranalysis.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {
